@@ -49,6 +49,8 @@ var newGame = function() {
     newLetter();
     guessesLeft();
     soFar();
+    document.getElementById("guesses").innerHTML = ""
+    guessesSoFar=[]
 }
 
 document.onkeyup = function(event) {
